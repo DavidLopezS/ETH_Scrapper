@@ -1,0 +1,6 @@
+fastapi==0.110.3
+uvicorn==0.29.0
+requests==2.31.0
+twilio==9.0.5
+beautifulsoup4==4.12.3
+schedule==1.2.1
