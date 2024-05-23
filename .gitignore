@@ -48,11 +48,10 @@ Thumbs.db
 *.mov
 *.wmv
 
-text.txt
-message.txt
+transaction.txt
 responses/
 
 # Ignore Python bytecode files
 __pycache__/
-constants/__pycache__/
-utils/__pycache__/
+
+
