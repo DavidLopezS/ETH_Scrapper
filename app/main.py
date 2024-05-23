@@ -10,7 +10,7 @@ def run_scheduler():
         schedule.run_pending()
         time.sleep(1)
 
-schedule.every(1).minutes.do(fetch_and_process_data)
+schedule.every(5).minutes.do(fetch_and_process_data)
 schedule_thread = threading.Thread(target=run_scheduler, daemon=True)
 schedule_thread.start()
 
